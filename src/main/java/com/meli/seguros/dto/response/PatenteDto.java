@@ -1,4 +1,4 @@
-package com.meli.seguros.dto;
+package com.meli.seguros.dto.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

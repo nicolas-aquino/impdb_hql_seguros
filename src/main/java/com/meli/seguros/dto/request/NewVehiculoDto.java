@@ -1,4 +1,4 @@
-package com.meli.seguros.dto;
+package com.meli.seguros.dto.request;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AccessLevel;
@@ -7,8 +7,7 @@ import lombok.experimental.FieldDefaults;
 
 @Data
 @FieldDefaults(level = AccessLevel.PRIVATE)
-public class ResNewVehiculoDto {
-    Long id;
+public class NewVehiculoDto {
     String patente;
     String marca;
     String modelo;

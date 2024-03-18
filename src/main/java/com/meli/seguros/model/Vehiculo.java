@@ -19,8 +19,8 @@ public class Vehiculo {
     @Column(name = "cantidad_ruedas")
     private Integer cantidadRuedas;
 
-    @OneToMany(cascade = CascadeType.ALL)
-    @JoinColumn(name = "id_siniestro")
+    @OneToMany
+    @JoinColumn(name = "vehiculo_id")
     private List<Siniestro> siniestros;
 
 }
